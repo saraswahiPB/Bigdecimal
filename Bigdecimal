@@ -1,0 +1,18 @@
+import java.math.BigDecimal;
+
+public class Bgdecimal
+{
+	public static void main(String[] args)
+	{
+		BigDecimal a= new BigDecimal("0.06");
+		BigDecimal b= new BigDecimal("0.08");
+		BigDecimal c= a.add(b);
+		BigDecimal d= a.subtract(b);
+		BigDecimal e= a.multiply(b);
+		BigDecimal f= a.divide(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+	}
+}
